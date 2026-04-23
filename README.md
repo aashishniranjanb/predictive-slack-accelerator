@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="hero.png" width="100%" alt="Predictive Accelerator Hero">
+</div>
+
+<div align="center">
 
 # ⚡ Predictive Slack-Aware AI & DSP Accelerator
 
