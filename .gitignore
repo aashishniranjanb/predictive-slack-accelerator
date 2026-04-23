@@ -1,0 +1,47 @@
+# ============================
+# Build & Tool Artifacts
+# ============================
+
+# Cadence working directories
+predictive_flow/work/
+predictive_flow/results/*.vcd
+predictive_flow/logs/
+
+# OpenLane run outputs
+openlane/runs/
+runs/
+
+# Icarus Verilog
+*.vvp
+*.vcd
+
+# Compiled objects
+*.o
+*.d
+
+# ============================
+# OS-Specific
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Editor / IDE
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================
+# Cadence Tool Junk
+# ============================
+*.log.bak
+genus.cmd*
+genus.log*
+innovus.cmd*
+innovus.log*
+*.enc.dat/
+fv/
