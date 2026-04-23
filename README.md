@@ -90,9 +90,6 @@ predictive-slack-accelerator/
 │   ├── adapt_ctrl.v                  #   LUT-based 4D controller FSM
 │   └── predictive_top.v              #   Top-level integration
 │
-├── tb/                               # Testbenches
-│   └── tb_predictive_top.v           #   4-phase workload + VCD dump
-│
 ├── openlane/                         # SkyWater Sky130 OpenLane Config
 │   └── config.json                   #   Automated synthesis + P&R config
 │
@@ -131,7 +128,7 @@ No Cadence license required. Verify the design behavior and generate waveforms i
 # Windows: Download from http://bleyer.org/icarus/
 
 # Compile the design + testbench
-iverilog -o sim.vvp src/*.v tb/tb_predictive_top.v
+iverilog -o sim.vvp src/*.v predictive_flow/hdl/tb_predictive_top.v
 
 # Run simulation (generates VCD)
 vvp sim.vvp
