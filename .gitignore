@@ -11,6 +11,9 @@ predictive_flow/logs/
 openlane/runs/
 runs/
 
+# Local OpenLane clone
+OpenLane/
+
 # Icarus Verilog
 *.vvp
 *.vcd
